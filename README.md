@@ -1,16 +1,17 @@
-# React + Vite
+(React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive website built with **React** and **Tailwind CSS**, converted from a static HTML/CSS design.  
+This project replicates a Figma‑to‑HTML layout and demonstrates component‑based architecture with modern styling.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Responsive design using Tailwind utility classes
+- Component‑based structure (Header, Hero, Courses, Feedback, Blogs, Footer)
+- Reusable components for course cards, testimonials, and blog items
+- Deployed easily with Vercel or Netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+- React (Create React App)
+- Tailwind CSS
+- JavaScript (ES6+)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 👉 This README is simple but professional. It explains what the project is, how to run it, and how to deploy it.  
