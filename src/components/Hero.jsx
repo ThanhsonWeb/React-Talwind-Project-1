@@ -13,7 +13,7 @@ function Hero() {
 
 	return (
 		<div className="container mx-auto py-[3rem] mt-[3rem] ">
-			<div className="flex">
+			<div className="md:flex">
 				{/* Image */}
 				<div className="w-[50%] relative">
 					<img
