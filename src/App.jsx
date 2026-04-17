@@ -9,7 +9,7 @@ function App() {
 	return (
 		<>
 			<Header />
-      {/* BrowRouter wrap App in Main.jsx */}
+			{/* BrowRouter wrap App in Main.jsx */}
 			<main>
 				<Routes>
 					<Route path="/" element={<Home />} />
