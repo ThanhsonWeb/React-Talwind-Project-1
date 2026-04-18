@@ -19,7 +19,7 @@ function Hero() {
 					<img
 						src={avatar}
 						alt="Avatar"
-						className=" mx-auto md:mx-0 h-[400px] w-[80%] md:h-[625px] md:w-[420px] rounded-2xl  mb-4 "
+						className=" mx-auto md:mx-0  h-[400px] w-[80%] md:h-[625px] md:w-[420px] rounded-2xl  mb-4  object-cover object-[30%_25%] "
 					/>
 					{/* summary card */}
 					<div className="absolute right-0 top-[50%]  w-[270px] h-[244px] p-6 rounded-2xl bg-white  shadow-lg ">

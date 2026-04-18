@@ -29,7 +29,7 @@ function PopularCourses() {
 			</div>
 			{/* Popular list */}
 			<div>
-				<ul className="grid grid-cols-1 md:grid-cols-3 gap-6 p-3">
+				<ul className="grid grid-cols-1 md:grid-cols-3 gap-6 p-3 md:p-0">
 					{courses.map((course) => (
 						<PopularCoursesItem key={course.id} course={course} />
 					))}
