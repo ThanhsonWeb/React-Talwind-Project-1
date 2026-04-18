@@ -5,14 +5,18 @@
 /* Your custom global tweaks */
 body {
 	font-family: "Poppins", sans-serif;
-	background-color: #fffcf4;
+	/* background-color: #fffcf4; */
 }
 
 /* font-normal */
 .primary-text {
-	@apply text-[#5F5B53] text-lg 
+	@apply text-[#5F5B53] text-lg;
 }
 
+/* container-space */
+.container-space {
+	@apply mx-auto py-[1.5rem] mt-[1.5rem] md:py-[3rem] md:mt-[3rem];
+}
 
 /* Header */
 .link {
@@ -27,5 +31,3 @@ body {
 .link:hover::after {
 	@apply w-full;
 }
-
-

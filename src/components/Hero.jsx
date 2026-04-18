@@ -12,14 +12,14 @@ function Hero() {
 	const colorMar = "bg-blue-200";
 
 	return (
-		<div className="container mx-auto py-[1.5rem] mt-[1.5rem] md:py-[3rem] md:mt-[3rem] ">
+		<div className="container  container-space bg-[#fffcf4] ">
 			<div className="md:flex">
 				{/* Image */}
 				<div className="md:w-[50%] relative">
 					<img
 						src={avatar}
 						alt="Avatar"
-						className=" mx-auto h-[400px] w-[80%] md:h-[625px] md:w-[420px] rounded-2xl  mb-4 object-cover  "
+						className=" mx-auto md:mx-0 h-[400px] w-[80%] md:h-[625px] md:w-[420px] rounded-2xl  mb-4 "
 					/>
 					{/* summary card */}
 					<div className="absolute right-0 top-[50%]  w-[270px] h-[244px] p-6 rounded-2xl bg-white  shadow-lg ">
