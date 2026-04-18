@@ -12,16 +12,16 @@ function Hero() {
 	const colorMar = "bg-blue-200";
 
 	return (
-		<div className="container mx-auto py-[3rem] mt-[3rem] ">
+		<div className="container mx-auto py-[1.5rem] mt-[1.5rem] md:py-[3rem] md:mt-[3rem] ">
 			<div className="md:flex">
 				{/* Image */}
-				<div className="w-[50%] relative">
+				<div className="md:w-[50%] relative">
 					<img
 						src={avatar}
 						alt="Avatar"
-						className="h-[625px] w-[420px] rounded-2xl"
+						className=" mx-auto h-[400px] w-[80%] md:h-[625px] md:w-[420px] rounded-2xl  mb-4 object-cover  "
 					/>
-					{/* summarize */}
+					{/* summary card */}
 					<div className="absolute right-0 top-[50%]  w-[270px] h-[244px] p-6 rounded-2xl bg-white  shadow-lg ">
 						<CourseItem color={colorDes} icon={des} title="20 courses">
 							UI/UX Design
@@ -36,8 +36,8 @@ function Hero() {
 				</div>
 
 				{/* Content */}
-				<div className="w-[50%] flex flex-col justify-center p-10 ">
-					<h1 className=" font-sen text-5xl font-semibold leading-[58px] mb-5 ">
+				<div className=" w-full md:w-1/2 flex flex-col justify-center p-10 mt-15 ">
+					<h1 className=" font-sen  text-center md:text-left text-4xl md:text-5xl font-semibold  leading-[40px] md:leading-[58px] mb-8 md:mb-5 ">
 						Learn without limits and spread knowledge
 					</h1>
 					<p className=" primary-text leading-[30px]  mb-5 ">
@@ -46,17 +46,19 @@ function Hero() {
 						companies.
 					</p>
 					{/* cta */}
-					<div className="flex gap-8 mb-8">
+					<div className="flex gap-8 mb-8  mx-auto md:mx-0">
 						<Button>See Courses</Button>
 						<div className="flex items-center gap-7">
-							<div className="p-4 rounded-full bg-white  shadow-lg">
+							<button className="p-4 rounded-full bg-white  shadow-lg">
 								<img src={play} alt="play" />
-							</div>
+							</button>
 							<span className="font-semibold shadow-blue-700">Watch Video</span>
 						</div>
 					</div>
 
-					<p className="primary-text mb-3">Recent engagement</p>
+					<p className="primary-text mb-3 text-center md:text-left">
+						Recent engagement
+					</p>
 
 					<div className="flex space-x-5">
 						<p className="primary-text">
