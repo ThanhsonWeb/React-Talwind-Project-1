@@ -24,7 +24,7 @@ function Feedback() {
 					</div>
 				</div>
 				{/* right */}
-				<div className="md:max-w-2xl relative p-4">
+				<div className="md:max-w-xl lg:max-w-2xl relative p-4">
 					<img
 						src={openQuote}
 						alt="Open-quote Icon"
