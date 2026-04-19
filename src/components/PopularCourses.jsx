@@ -8,7 +8,7 @@ function PopularCourses() {
 		<div className="container container-space ">
 			{/* // Popular-top */}
 			<div className="mb-20 px-3">
-				<h2 className="font-semibold text-3xl text-center md:text-left py-2 mb-4 ">
+				<h2 className="header-secondary py-2 mb-4 ">
 					Our Popular Courses
 				</h2>
 				<div className="md:flex items-center justify-between">

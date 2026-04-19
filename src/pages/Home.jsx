@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import PopularCourses from "../components/PopularCourses";
 import Feedback from "../components/Feedback";
+import Feature from "../components/Feature";
 
 function Home() {
 	return (
@@ -8,6 +9,7 @@ function Home() {
 			<Hero />
 			<PopularCourses />
 			<Feedback />
+			<Feature />
 		</div>
 	);
 }

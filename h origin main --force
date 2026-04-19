@@ -1,0 +1,56 @@
+[33mcommit 1d72a4ce6d9ce131d7e33dbc10dc65908abfa496[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: ThanhsonWeb <sondeptroi@gmail.com>
+Date:   Sat Apr 18 20:57:08 2026 +0700
+
+     Responsive for Feedback
+
+[33mcommit c0bce0b527703dfe49ad5efa89add50ae91a7d04[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: ThanhsonWeb <sondeptroi@gmail.com>
+Date:   Sat Apr 18 16:33:15 2026 +0700
+
+     Responsive for PopularCourses and use FakeAPI
+
+[33mcommit b6086f9b9afcce5b5edc250fd5b800bba416ad9c[m
+Author: ThanhsonWeb <sondeptroi@gmail.com>
+Date:   Sat Apr 18 09:35:56 2026 +0700
+
+     Responsive for Hero ^^
+
+[33mcommit 47b387179ee84c84b900ef1078a75fcb65e0be9f[m
+Author: ThanhsonWeb <sondeptroi@gmail.com>
+Date:   Fri Apr 17 20:50:48 2026 +0700
+
+     Responsive For Header and reusable Nav
+
+[33mcommit 85ba45fee8155487d40f51d6b27fb83499411262[m
+Author: ThanhsonWeb <sondeptroi@gmail.com>
+Date:   Fri Apr 17 16:17:24 2026 +0700
+
+      style for Hero p-2
+
+[33mcommit 38807f4423f3088f602e5029c8dd2fbf91107e22[m
+Merge: 694c70d 9f4affe
+Author: ThanhsonWeb <sondeptroi@gmail.com>
+Date:   Fri Apr 17 11:19:42 2026 +0700
+
+      style for  Hero p-1
+
+[33mcommit 694c70d3bd2b1ba81e0c2634f393b18735fd521c[m
+Author: ThanhsonWeb <sondeptroi@gmail.com>
+Date:   Thu Apr 16 16:56:28 2026 +0700
+
+      include Router and style Header
+
+[33mcommit 9f4affe909b3414c6f38debe9848b8806774bbb3[m
+Author: ThanhSon <sondeptroi@gmail.com>
+Date:   Thu Apr 16 10:26:04 2026 +0700
+
+    Project Information
+    
+    Updated README to include project overview, features, and tech stack.
+
+[33mcommit 793768da0482b37de32f6c38b0c294718b0f5702[m
+Author: ThanhsonWeb <sondeptroi@gmail.com>
+Date:   Thu Apr 16 10:22:28 2026 +0700
+
+     Set up React and Tailwind Project
