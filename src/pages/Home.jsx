@@ -3,7 +3,6 @@ import PopularCourses from "../components/PopularCourses";
 import Feedback from "../components/Feedback";
 import Feature from "../components/Feature";
 import Blog from "../components/Blog";
-import Footer from "../components/Footer";
 function Home() {
 	return (
 		<div>
@@ -12,7 +11,6 @@ function Home() {
 			<Feedback />
 			<Feature />
 			<Blog />
-			<Footer />
 		</div>
 	);
 }

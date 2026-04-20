@@ -1,9 +1,13 @@
+import FeedBack from "../components/Feedback";
+import Feature from "../components/Feature";
+
 function Reviews() {
-    return (
-        <div>
-             Reviews Reviews Reviews Reviews Reviews
-        </div>
-    )
+	return (
+		<div>
+			<FeedBack />
+			<Feature />
+		</div>
+	);
 }
 
-export default Reviews
+export default Reviews;

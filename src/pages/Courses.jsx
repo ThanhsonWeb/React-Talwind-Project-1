@@ -1,5 +1,10 @@
+import PopularCourses from "../components/PopularCourses"
 function Courses() {
-	return <div>Course Course Course Course Course Course</div>;
+	return (
+		<div>
+			<PopularCourses />
+		</div>
+	);
 }
 
 export default Courses;

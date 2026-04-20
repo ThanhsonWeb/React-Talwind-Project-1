@@ -16,8 +16,8 @@ function Navigation({ classPc, classMobile }) {
 					</NavLink>
 				</li>
 				<li>
-					<NavLink to="/pricing" className="link">
-						Pricing
+					<NavLink to="/about" className="link">
+						About Us
 					</NavLink>
 				</li>
 				<li>
