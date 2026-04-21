@@ -5,11 +5,13 @@ import dev from "../assets/icon/dev.svg";
 import marketing from "../assets/icon/marketing.svg";
 import Button from "./Button";
 import play from "../assets/icon/play.svg";
-
+import { useNavigate } from "react-router-dom";
 function Hero() {
 	const colorDes = "bg-amber-100";
 	const colorDev = "bg-purple-200";
 	const colorMar = "bg-blue-200";
+
+	const navigate = useNavigate();
 
 	return (
 		<div className="  container-space bg-[#fffcf4] px-2 md:px-10 ">
@@ -49,10 +51,14 @@ function Hero() {
 					<div className="flex gap-8 mb-8  mx-auto md:mx-0">
 						<Button>See Courses</Button>
 						<div className="flex items-center gap-7">
-							<button className="p-4 rounded-full bg-white  shadow-lg">
+							<button onClick={() => navigate("/video")} className="p-4 rounded-full bg-white  shadow-lg">
 								<img src={play} alt="play" />
 							</button>
-							<span className="font-semibold shadow-blue-700">Watch Video</span>
+							<span
+								className="font-semibold shadow-blue-700"
+							>
+								Watch Video
+							</span>
 						</div>
 					</div>
 

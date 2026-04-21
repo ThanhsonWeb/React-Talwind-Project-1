@@ -7,6 +7,7 @@ import Reviews from "./pages/Reviews";
 import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
 import LogIn from "./components/LogIn";
+import Video from "./components/Video";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 					<Route path="/reviews" element={<Reviews />} />
 					<Route path="/signup" element={<SignUp />} />
 					<Route path="/login" element={<LogIn />} />
+					<Route path="/video" element={<Video />} />
 				</Routes>
 			</main>
 			<Footer />

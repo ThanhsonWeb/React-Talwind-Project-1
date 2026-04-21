@@ -6,7 +6,9 @@ function MobileNav({ setIsOpen }) {
 	const classMobile = "flex  flex-col text-xl space-y-2  text-stone-300";
 	return (
 		// sidebar
-		<div className="fixed top-0 left-0 h-full w-2/3 z-10 bg-gradient-to-r from-yellow-800 to-yellow-600 p-8 ">
+		<div
+			className={`fixed top-0 left-0 h-full w-2/3 z-10 bg-gradient-to-r from-yellow-800 to-yellow-600 p-8  transition-transform duration-1000 }  `}
+		>
 			{/* header */}
 			<div className="flex items-center justify-between mb-4   border-b">
 				{/* logo */}
