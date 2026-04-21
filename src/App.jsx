@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Reviews from "./pages/Reviews";
 import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
-import Login from "./components/Login";
+import LogIn from "./components/LogIn";
 
 function App() {
 	return (
@@ -20,7 +20,7 @@ function App() {
 					<Route path="/about" element={<About />} />
 					<Route path="/reviews" element={<Reviews />} />
 					<Route path="/signup" element={<SignUp />} />
-					<Route path="/login" element={<Login />} />
+					<Route path="/login" element={<LogIn />} />
 				</Routes>
 			</main>
 			<Footer />

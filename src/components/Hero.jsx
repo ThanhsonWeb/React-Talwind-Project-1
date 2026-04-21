@@ -12,7 +12,7 @@ function Hero() {
 	const colorMar = "bg-blue-200";
 
 	return (
-		<div className="container  container-space bg-[#fffcf4] ">
+		<div className="  container-space bg-[#fffcf4] px-2 md:px-10 ">
 			<div className="md:flex">
 				{/* Image */}
 				<div className="md:w-[50%] relative">

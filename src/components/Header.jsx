@@ -17,7 +17,7 @@ function Header() {
 	const navigate = useNavigate();
 
 	return (
-		<div className=" container  m-auto p-6  flex items-center  justify-between">
+		<div className="   mx-auto p-6  flex items-center  justify-between bg-[#fffcf4] px-4 md:px-10 ">
 			{/*  control the sidebar*/}
 			{isOpen ? (
 				<MobileNav setIsOpen={setIsOpen} />
