@@ -7,7 +7,7 @@ function Blog() {
 			{/* BLog-header */}
 			<div className="  flex flex-col text-center mb-10">
 				<h2 className="header-secondary mb-5 mx-auto">Our Blog</h2>
-				<p className="primary-text w-[448px] mx-auto ">
+				<p className="primary-text w-[90%] md:w-md mx-auto ">
 					Read our regular travel blog and know the latest update of tour and
 					travel
 				</p>
