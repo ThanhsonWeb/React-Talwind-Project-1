@@ -1,5 +1,6 @@
 import feature1 from "../assets/img/feature1.jpg";
 import feature2 from "../assets/img/feature2.jpg";
+import { Link } from "react-router-dom";
 import Button from "./Button";
 function Feature() {
 	return (
@@ -28,7 +29,9 @@ function Feature() {
 					just 2-3 years then everything change !
 				</p>
 				<p className="primary-text mb-5">Consistent beats Talent 🔥</p>
-				<Button> Sign Up</Button>
+				<Button>
+					<Link to="/signup"> Sign Up</Link>
+				</Button>
 			</div>
 		</div>
 	);

@@ -3,7 +3,7 @@ import BlogItem from "./BlogItem";
 import Dots from "./Dots";
 function Blog() {
 	return (
-		<div className="container-space bg-amber-50">
+		<div className=" container-space bg-amber-50">
 			{/* BLog-header */}
 			<div className="  flex flex-col text-center mb-10">
 				<h2 className="header-secondary mb-5 mx-auto">Our Blog</h2>
@@ -14,7 +14,7 @@ function Blog() {
 			</div>
 
 			{/* Blog-list */}
-			<ul className=" flex flex-col md:grid md:grid-cols-3 gap-3">
+			<ul className=" grid  sm:grid-cols-2 md:grid-cols-3 gap-3">
 				{posts.map((post) => (
 					<BlogItem key={post.id} post={post} />
 				))}

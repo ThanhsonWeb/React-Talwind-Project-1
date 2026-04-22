@@ -31,4 +31,32 @@ export const courses = [
     price: "120.75",
     star: "⭐",
   },
+   {
+    id: 4,
+    image: course1,
+    title: "Web App design",
+    desc: "Get the best course, gain knowledge and shine for your future career.",
+    rate: "4.6",
+    price: "120.75",
+    star: "⭐",
+  },
+   {
+    id: 5,
+    image: course2,
+    title: "Web App design",
+    desc: "Get the best course, gain knowledge and shine for your future career.",
+    rate: "4.6",
+    price: "120.75",
+    star: "⭐",
+  },
+   {
+    id: 6,
+    image: course3,
+    title: "Web App design",
+    desc: "Get the best course, gain knowledge and shine for your future career.",
+    rate: "4.6",
+    price: "120.75",
+    star: "⭐",
+  },
+
 ];
