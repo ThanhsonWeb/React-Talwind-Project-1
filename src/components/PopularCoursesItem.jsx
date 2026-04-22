@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../ui/Button";
 
 function PopularCoursesItem({ course }) {
 	const { image, title, desc, rate, price, star } = course;

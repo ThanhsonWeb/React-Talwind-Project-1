@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../ui/Button";
 
 function BlogItem({ post }) {
 	const { image, date, title, buttonText } = post;
@@ -17,8 +17,6 @@ function BlogItem({ post }) {
 				<h3 className="font-semibold my-3">{title}</h3>
 				<Button>{buttonText}</Button>
 			</div>
-
-			
 		</div>
 	);
 }

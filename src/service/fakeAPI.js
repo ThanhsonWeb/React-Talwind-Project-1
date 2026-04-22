@@ -1,6 +1,6 @@
-import course2 from "./assets/img/course2.jpg";
-import course1 from "./assets/img/course1.jpg";
-import course3 from "./assets/img/course3.jpg";
+import course2 from "../assets/img/course2.jpg";
+import course1 from "../assets/img/course1.jpg";
+import course3 from "../assets/img/course3.jpg";
 
 // fakeApi.js
 export const courses = [

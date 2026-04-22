@@ -1,10 +1,10 @@
 import logo from "../assets/img/logo.svg";
 import { NavLink } from "react-router-dom";
-import Button from "./Button";
+import Button from "../ui/Button";
 import { useState } from "react";
 import MobileNav from "./MobileNav";
 import Navigation from "./Navigation";
-import SignUp from "./SignUp";
+import SignUp from "../ui/SignUp";
 import { useNavigate } from "react-router-dom";
 import { useUser } from "../context/UserContext";
 

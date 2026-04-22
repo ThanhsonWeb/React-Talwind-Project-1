@@ -1,6 +1,6 @@
-import { posts } from "../BlogAPI";
+import { posts } from "../service/BlogAPI";
 import BlogItem from "./BlogItem";
-import Dots from "./Dots";
+import Dots from "../ui/Dots";
 function Blog() {
 	return (
 		<div className=" container-space bg-amber-50">

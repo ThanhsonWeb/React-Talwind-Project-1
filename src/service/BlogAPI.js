@@ -1,6 +1,6 @@
-import blog1 from "./assets/img/blog1.jpg";
-import blog2 from "./assets/img/blog2.jpg";
-import blog3 from "./assets/img/blog3.jpg";
+import blog1 from "../assets/img/blog1.jpg";
+import blog2 from "../assets/img/blog2.jpg";
+import blog3 from "../assets/img/blog3.jpg";
 
 // fakeApi.js
 export const posts = [

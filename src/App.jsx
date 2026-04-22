@@ -5,9 +5,9 @@ import Courses from "./pages/Courses";
 import About from "./pages/About";
 import Reviews from "./pages/Reviews";
 import Footer from "./components/Footer";
-import SignUp from "./components/SignUp";
-import LogIn from "./components/LogIn";
-import Video from "./components/Video";
+import SignUp from "./ui/SignUp";
+import LogIn from "./ui/LogIn";
+import Video from "./ui/Video";
 
 function App() {
 	return (

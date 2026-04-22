@@ -1,6 +1,6 @@
 import king from "../assets/img/king.jpg";
 import openQuote from "../assets/icon/open-quote.svg";
-import Dots from "./Dots";
+import Dots from "../ui/Dots";
 
 function Feedback() {
 	return (
@@ -13,9 +13,7 @@ function Feedback() {
 						alt=""
 						className="w-[5rem] h-[5rem] rounded-full object-cover object-top mb-4 "
 					/>
-					<p className="text-white font-semibold text-xl mb-2">
-						David Laid
-					</p>
+					<p className="text-white font-semibold text-xl mb-2">David Laid</p>
 					<span className="text-sm text-[#BFBCB2] ">
 						Bodybuilder likes coding
 					</span>
@@ -33,8 +31,7 @@ function Feedback() {
 					<p className=" text-white text-xl  ">
 						Not only does my resume look impressive—filled with the names and
 						logos of world-class institutions—but these certificates also bring
-						me closer to my career goals by validating the skills I've
-						learned."{" "}
+						me closer to my career goals by validating the skills I've learned."
 					</p>
 				</div>
 			</div>

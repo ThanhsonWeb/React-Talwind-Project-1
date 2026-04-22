@@ -3,7 +3,7 @@ import CourseItem from "./CourseItem";
 import des from "../assets/icon/des.svg";
 import dev from "../assets/icon/dev.svg";
 import marketing from "../assets/icon/marketing.svg";
-import Button from "./Button";
+import Button from "../ui/Button";
 import play from "../assets/icon/play.svg";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";

@@ -1,9 +1,9 @@
 import next from "../assets/icon/next.svg";
 import prev from "../assets/icon/prev.svg";
 import PopularCoursesItem from "./PopularCoursesItem";
-import { courses } from "../fakeAPI";
+import { courses } from "../service/fakeAPI";
 import { useState } from "react";
-import Button from "../components/Button";
+import Button from "../ui/Button";
 
 function PopularCourses() {
 	// const visibleCourses = courses.slice(0, 3);

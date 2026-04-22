@@ -1,7 +1,7 @@
 import feature1 from "../assets/img/feature1.jpg";
 import feature2 from "../assets/img/feature2.jpg";
 import { Link } from "react-router-dom";
-import Button from "./Button";
+import Button from "../ui/Button";
 function Feature() {
 	return (
 		<div className=" md:flex container container-space gap-20 ">
