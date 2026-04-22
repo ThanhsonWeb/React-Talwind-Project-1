@@ -4,7 +4,7 @@ function BlogItem({ post }) {
 	const { image, date, title, buttonText } = post;
 
 	return (
-		<div className=" hover:shadow-xl  bg-white mb-4 md:mb-0">
+		<div className=" hover:shadow-xl   bg-white mb-4 md:mb-0">
 			<img
 				src={image}
 				alt="blog image"

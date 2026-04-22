@@ -3,7 +3,7 @@ import BlogItem from "./BlogItem";
 import Dots from "../ui/Dots";
 function Blog() {
 	return (
-		<div className=" container-space bg-amber-50">
+		<div className=" container-space bg-amber-50 ">
 			{/* BLog-header */}
 			<div className="  flex flex-col text-center mb-10">
 				<h2 className="header-secondary mb-5 mx-auto">Our Blog</h2>

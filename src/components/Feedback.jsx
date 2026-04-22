@@ -1,24 +1,46 @@
-import king from "../assets/img/king.jpg";
 import openQuote from "../assets/icon/open-quote.svg";
 import Dots from "../ui/Dots";
+import { feedbacks } from "../service/feedbackAPI.js";
+import { useState } from "react";
+import next from "../assets/icon/next.svg";
 
 function Feedback() {
+	// b1 create state to store ...
+	const [currentIndex, setCurrentIndex] = useState(0);
+
+	// b2 only one feedback visible (single object)
+	const currentFeedback = feedbacks[currentIndex];
+
+	function handlePrev() {
+		if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
+	}
+
+	function handleNext() {
+		if (currentIndex < 2) setCurrentIndex(currentIndex + 1);
+	}
+
 	return (
-		<div className=" container-space bg-[#2E2100]  ">
-			<div className="md:flex items-center justify-between px-10 py-10  ">
+		<div className=" container-space bg-[#2E2100] px-10 py-10  ">
+			<div
+				key={currentFeedback.id}
+				className="md:flex items-center justify-between "
+			>
 				{/* left */}
 				<div className="w-[200px] mb-12 md:mb-0 mx-auto md:mx-0   ">
 					<img
-						src={king}
+						src={currentFeedback.img}
 						alt=""
 						className="w-[5rem] h-[5rem] rounded-full object-cover object-top mb-4 "
 					/>
-					<p className="text-white font-semibold text-xl mb-2">David Laid</p>
+					<p className="text-white font-semibold text-xl mb-2">
+						{currentFeedback.name}
+					</p>
 					<span className="text-sm text-[#BFBCB2] ">
-						Bodybuilder likes coding
+						{currentFeedback.role}
 					</span>
 					<div className="mt-4">
-						<Dots />
+						{/* b3: highlight based on currentIndex */}
+						<Dots currentIndex={currentIndex} />
 					</div>
 				</div>
 				{/* right */}
@@ -28,12 +50,24 @@ function Feedback() {
 						alt="Open-quote Icon"
 						className="absolute top-[-10px] left-[-10px] "
 					/>
-					<p className=" text-white text-xl  ">
-						Not only does my resume look impressive—filled with the names and
-						logos of world-class institutions—but these certificates also bring
-						me closer to my career goals by validating the skills I've learned."
-					</p>
+					<p className=" text-white text-xl  ">{currentFeedback.quote}</p>
 				</div>
+			</div>
+
+			{/* btn */}
+			<div className=" flex justify-center  gap-8 ">
+				<button
+					onClick={handlePrev}
+					className="p-4 rounded-full border border-yellow-200 cursor-pointer select-none hover:bg-amber-400   active:scale-95 rotate-180"
+				>
+					<img src={next} alt="previous" />
+				</button>
+				<button
+					onClick={handleNext}
+					className="p-4 rounded-full border border-yellow-200 hover:bg-amber-400 active:scale-95 cursor-pointer select-none"
+				>
+					<img src={next} alt="next" />
+				</button>
 			</div>
 		</div>
 	);
