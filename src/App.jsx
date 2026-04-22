@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import SignUp from "./ui/SignUp";
 import LogIn from "./ui/LogIn";
 import Video from "./ui/Video";
+import ReadBlog from "./components/ReadBlog";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 					<Route path="/signup" element={<SignUp />} />
 					<Route path="/login" element={<LogIn />} />
 					<Route path="/video" element={<Video />} />
+					<Route path="/read" element={<ReadBlog />} />
 				</Routes>
 			</main>
 			<Footer />
