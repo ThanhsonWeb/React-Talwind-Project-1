@@ -33,7 +33,7 @@ function ReadBlog() {
 					   foggy term in this advice, of course, is ‘good’; but I leave that to
    					the intuitive powers that we all share.
 					</i>
-					<hr />
+					
 				</p>
 			</div>
 			<div className="w-[30%]">
